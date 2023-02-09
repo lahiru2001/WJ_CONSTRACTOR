@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+        <item
+            android:id = "@+id/a_admin"
+            android:title="REGISTER ADMIN"
+            android:icon="@drawable/ic_baseline_person_remove_24"
+            ></item>
+        <item
+            android:id = "@+id/a_newSite"
+            android:title="Add New Site"
+            android:icon="@drawable/ic_baseline_add_business_24"
+            ></item>
+        <item
+            android:id = "@+id/aud_supervisor"
+            android:title="ADD/UPDATE/DELETE SUPER"
+            android:icon="@drawable/ic_baseline_person_add_24"
+            ></item>
+        <item
+            android:id = "@+id/aud_worker"
+            android:title="ADD/UPDATE/DELETE WORKER"
+            android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+            ></item>
+        <item
+            android:id = "@+id/v_supervisor"
+            android:title="VIEW SUPERVISOR"
+            android:icon="@drawable/ic_baseline_person_remove_24"
+            ></item>
+        <item
+            android:id = "@+id/v_worker"
+            android:title="VIEW MASONRY WORKER"
+            android:icon="@drawable/ic_baseline_person_remove_24"
+            ></item>
+    </group>
+    <item android:title="SHARE">
+
+        <menu>
+
+            <item android:id="@+id/email"
+                android:title="Email"
+                android:icon="@drawable/ic_baseline_email_24">
+            </item>
+
+        </menu>
+    </item>
+</menu>

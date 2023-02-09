@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/admin_home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+        <item
+            android:id = "@+id/AUD_SUPERVISOR"
+            android:title="ADD/UPDATE/DELETE WORKER"
+            android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+            ></item>
+        <item
+            android:id = "@+id/ma_worker"
+            android:title="MARK ATTENDANCE"
+            android:icon="@drawable/mark_attendance"
+            ></item>
+        <item
+            android:title="WORKER"
+            ></item>
+        <item
+            android:id = "@+id/cal_salary"
+            android:title="CAL MONTHLY SALARY"
+            android:icon="@drawable/calculate"
+            ></item>
+        <item
+            android:id = "@+id/log_out"
+            android:title="LOG OUT"
+            android:icon="@drawable/login"
+            ></item>
+      
+    </group>
+</menu>
